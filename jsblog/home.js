@@ -1,4 +1,4 @@
-function header(){
+function container(){
     return " <div className=\"container\">\n" +
         "        <div className=\"menu\">\n" +
         "          <ul>\n" +
@@ -13,5 +13,5 @@ function header(){
         "        </div>\n" +
         "      </div>\n"
 }
-var hd = document.getElementById("header");
-hd.innerHTML = header();
+var hd = document.getElementById("container");
+hd.innerHTML = container();
