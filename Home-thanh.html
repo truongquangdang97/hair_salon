@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang Chủ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/header-thanh.css">
+    <link rel="stylesheet" href="lib/bootsrap 3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/fontawesome-free-5.15.1-web/css/all.css">
+</head>
+<body>
+<header>
+    <div class="content-den nenden">
+        <div class="container">
+            <ul>
+                <li class="content-li">Free Shipping nội thành từ 500K, tỉnh thành khác từ 1.000K </li>
+                <li class="content-li">Địa chỉ: 27 Ba Mỏ, TT. Thanh Sơn, Thanh Sơn, Phú Thọ</li>
+
+                <li class="cl2"><a class="link-1" target="_blank" href="tel:+84827555916">Hotline: 0827555916</a></li>
+                <li class="cl2 fb-zalo">
+                    <a class="link-1" href="http://m.me/tiembanhsinhnhattokyogateaux">
+                        <img src="imgT2008M/zalo-1.png">
+                    </a>
+                </li>
+                <li  class="cl2 fb-zalo">
+                    <a class="link-1" href="https://zalo.me/0902040990">
+                        <img src="imgT2008M/fb-logo.png" >
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+    <div class="content-xam nenxam">
+        <div class="container">
+            <ul>
+                <li class="cll box"><img src="imgT2008M/seoulista-logo.png" width="117px"></li>
+                <li class="cll"><a href="#">Mua hàng</a></li>
+                <li class="cll"><a href="#">Thương hiệu</a></li>
+                <li class="cll"><a href="#">Giảm giá</a></li>
+                <li class="cll"><a href="#">K-Beauty Blog</a></li>
+                <li class="clr"><i class="fas fa-search"></i></li>
+                <li class="clr"><i class="far fa-user-circle"></i></li>
+                <li class="clr"><i class="fas fa-shopping-cart"></i></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<nav>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade1">
+            <img class="cangiua" src="imgT2008M/Freeship-for-order-over-300k_Website-03-scaled.png" height="523px">
+
+        </div>
+
+        <div class="mySlides fade1">
+            <img class="cangiua" src="imgT2008M/Purito-Slide-01-01-01-scaled.png" height="523px">
+
+        </div>
+
+        <div class="mySlides fade1 pic">
+            <img class="cangiua" src="imgT2008M/later.png" height="523px">
+            <div class="text">Nội dung caption của slide thứ 3!</div>
+        </div>
+        <div class="mySlides fade1">
+            <img class="cangiua" src="imgT2008M/fegfg-1.png" height="523px">
+            <div class="text">Nội dung caption của slide thứ 4!</div>
+        </div>
+    </div>
+
+    <div class="xzy" style="text-align:center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</nav>
+
+
+
+<script>
+    //khai báo biến slideIndex đại diện cho slide hiện tại
+    var slideIndex;
+    // KHai bào hàm hiển thị slide
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        slides[slideIndex].style.display = "block";
+        dots[slideIndex].className += " active";
+        //chuyển đến slide tiếp theo
+        slideIndex++;
+        //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+        if (slideIndex > slides.length - 1) {
+            slideIndex = 0
+        }
+        //tự động chuyển đổi slide sau 5s
+        setTimeout(showSlides, 5000);
+    }
+    //mặc định hiển thị slide đầu tiên
+    showSlides(slideIndex = 0);
+
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    width: 1470px;
+}
+img{
+    max-width: 100%;
+}
+.nenden{
+    background-color: #111;
+    height: 46px;
+}
+.content-den li{
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #f3f3f3;
+}
+.nenden ul .content-li{
+    line-height: 3.5;
+    float: left;!important;
+    margin-right:20px;
+    margin-left:0; !important;
+    cursor: unset;
+}
+.nenden ul .cl2{
+    line-height: 2.5;
+    font-size: 19px;
+    float: right;
+    margin-left:20px ;
+}
+.fb-zalo{
+    width: 22px;
+}
+.link-1{
+    color: #f3f3f3;
+}
+.link-1:hover{
+    color: #dddddd;
+    text-decoration: none ;
+}
+.nenxam{
+    background-color: #f7f7f7;
+    height: 80px;
+
+}
+.content-xam ul{
+    padding-top: 18px;
+    height: 46px;
+}
+.content-xam ul li{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.nenxam ul .cll{
+    float: left;
+    line-height: 3;
+}
+.nenxam ul .clr{
+    margin-left: 15px;
+  padding-top: 10px;
+    font-size: 20px;
+    line-height: 3;
+    float: right;
+    cursor: pointer;
+}
+.nenxam ul li a{
+    padding: 0 15px;
+    color: #2e2e2e ;
+    text-decoration: none;
+}
+.pic{
+    margin: auto;
+}
+.cangiua{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    text-align: center;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+/* Ẩn các slider */
+.mySlides {
+    display: none;
+}
+/* Định dạng nội dung Caption */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* định dạng các chấm chuyển đổi các slide */
+.xzy{
+    margin-top: -25px; !important;
+    z-index: 30;
+    position: absolute;
+    left: calc(50% - 40px);
+}
+.dot {
+    cursor:pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 1s ease;
+}
+/* khi được hover, active đổi màu nền */
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .2}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .2}
+    to {opacity: 1}
+}
