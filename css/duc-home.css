@@ -28,7 +28,7 @@ a{
     font-family: 'Montserrat', sans-serif;
 }
 .button.type4 {
-    color: #40aeee;
+    color: #369fdd;
 }
 .button.type4::after {
     content: "";
@@ -36,16 +36,18 @@ a{
     position: absolute;
     height: 2px;
     width: 0;
-    left: 10px;
+    left: 0;
+    right: 0;
     background-color: #f671b6;
     transition: width 0.3s ease-in-out;
+    margin: 0 auto;
 }
 
 .button.type4::after {
     bottom: 0;
 }
 .button.type4:hover::after {
-    width: 100px;
+    width: 60px;
 }
 .search{
     margin-top: 34px;
@@ -60,12 +62,9 @@ a{
 .slice .left{
     position: absolute;
     left: 35px;
-    top: 350px;
+    top: 300px;
 }
-.slice .left h2{
-    color: #f8e3e3;
-}
-.slice .left p{
+.slice .left{
     color: #eadcdc;
 }
 .card {
@@ -80,6 +79,31 @@ a{
 .img-container:hover {
     transform: scale(1.1);
     transform-origin: 50% 50%;
+}
+.img-right{
+    float: right;
+    display: block;
+    transition: transform 0.4s ease;
+    box-shadow: black;
+    margin-right: 70px;
+}
+.img-right:hover {
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+
+}
+.img-right-bottom {
+    position: absolute;
+    top: 220px;
+    right: 70px;
+    display: block;
+    transition: transform 0.4s ease;
+    box-shadow: black;
+}
+.img-right-bottom:hover {
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+
 }
 
 
