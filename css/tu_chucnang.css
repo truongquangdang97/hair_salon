@@ -125,9 +125,10 @@ img{
 .menu-1-2{
     line-height: 2;
     max-width: 250px;
+
     padding-top: 15px;
 }
-.menu-1-4{
+.menu-1-4 {
     padding-right: 15px;
 }
 .menu-1-4:hover{
