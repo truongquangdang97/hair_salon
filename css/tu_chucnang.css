@@ -7,7 +7,6 @@ body{
     font-size: 14px;
     line-height: 1.5;
     font-family: "Nunito", sans-serif;
-
 }
 img{
     max-width: 100%;
@@ -126,9 +125,10 @@ img{
 .menu-1-2{
     line-height: 2;
     max-width: 250px;
+
     padding-top: 15px;
 }
-.menu-1-4{
+.menu-1-4 {
     padding-right: 15px;
 }
 .menu-1-4:hover{
@@ -140,7 +140,7 @@ img{
     max-width: 200px;
     background-color: #fff;
     position: absolute;
-    top: 85px;
+    top: 110px;
     left: 190px;
     box-shadow: 0 0 5px rgba(0,0,0,.1);
 }
@@ -212,8 +212,8 @@ img{
     max-width: 280px;
     background-color: #fff;
     position: absolute;
-    top: 115px;
-    left: 180px;
+    top: 140px;
+    left: 175px;
     box-shadow: 0 0 5px rgba(0,0,0,.1);
 }
 .menu-1-9:hover{
@@ -229,8 +229,8 @@ img{
     max-width: 200px;
     background-color: #fff;
     position: absolute;
-    top: 145px;
-    left: 140px;
+    top: 165px;
+    left: 135px;
     box-shadow: 0 0 5px rgba(0,0,0,.1);
 }
 .menu-1-10:hover{
@@ -270,8 +270,8 @@ img{
     padding: 40px 35px;
     background-color: #fff;
     position: absolute;
-    top: 85px;
-    left: 460px;
+    top: 110px;
+    left: 430px;
     box-shadow: 0 0 5px rgba(0,0,0,.1);
 }
 .menu-2-1:hover{
@@ -289,8 +289,8 @@ img{
     padding: 40px 35px;
     background-color: #fff;
     position: absolute;
-    top: 110px;
-    left: 460px;
+    top: 135px;
+    left: 430px;
     box-shadow: 0 0 5px rgba(0,0,0,.1);
 }
 .menu-2-2:hover{
@@ -308,8 +308,8 @@ img{
     padding: 40px 35px;
     background-color: #fff;
     position: absolute;
-    top: 142px;
-    left: 415px;
+    top: 165px;
+    left: 385px;
     box-shadow: 0 0 5px rgba(0,0,0,.1);
 }
 .menu-2-3:hover{
@@ -361,6 +361,7 @@ img{
     color: #ec1c24;
 }
 .text-ct-3{
+    text-transform: uppercase;
     color: rgba(54,54,54,0.55);
 }
 .text-ct-3-1{
@@ -398,7 +399,6 @@ img{
 .ct-2-1 .price-1:before{
     content: attr(data-hover);
     position: absolute;
-    top: 1.1em;
     left: 0;
     width: 100%;
     text-transform: uppercase;
@@ -507,4 +507,12 @@ img{
 }
 .heart-1:hover{
     color: #ec1c24;
+}
+.op05{
+    text-decoration: line-through;
+    color: #888;
+}
+.fonchu{
+    padding-top: 55px;
+    font-family: 'Playfair Display';
 }
