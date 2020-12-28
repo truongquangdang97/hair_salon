@@ -24,6 +24,7 @@
     cursor: pointer;
 }
 .buttonfake {
+    font-family:"Nunito", sans-serif;
     position: relative;
     overflow: hidden;
 }
@@ -134,4 +135,7 @@
 }
 .heart-x2:hover{
     color: #ec1c24;
+}
+.op05{
+    color: #888;
 }
