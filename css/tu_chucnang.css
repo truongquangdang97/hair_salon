@@ -398,7 +398,6 @@ img{
 .ct-2-1 .price-1:before{
     content: attr(data-hover);
     position: absolute;
-    top: 1.1em;
     left: 0;
     width: 100%;
     text-transform: uppercase;
