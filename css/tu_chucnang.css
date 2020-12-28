@@ -508,3 +508,7 @@ img{
 .heart-1:hover{
     color: #ec1c24;
 }
+.op05{
+    text-decoration: line-through;
+    color: #888;
+}
