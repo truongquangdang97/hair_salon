@@ -1,0 +1,137 @@
+.tenxxx{
+    color: #464646;
+    font-family: 'Playfair Display SC', serif;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.tenxxx>a{
+    text-decoration: none;
+    color: #464646;
+}
+.content-main img{
+    max-width: 100%;
+}
+.borderbot{
+    border-bottom: 1px solid #dddddd;
+}
+.mini{
+    height: 49px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+.showra:hover{
+    cursor: pointer;
+}
+.buttonfake {
+    position: relative;
+    overflow: hidden;
+}
+
+.op05{
+    opacity: 0.5;
+}
+.showra:hover :before{
+    opacity: 1;
+    color: #ec1c24;
+    transform: translate(0,0);
+    font-weight: 700;
+
+}
+.buttonfake:before{
+    content: attr(data-hover);
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+
+    opacity: 0;
+    transform: translate(0,100%);
+    transition: all .3s ease-in-out;
+}
+
+.showra:hover>.buttonfake div{opacity: 0;transform: translate(0,-100%)}
+.buttonfake div{
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    transition: all .3s ease-in-out;
+}
+.hang2{
+    padding-top: 75px;
+}
+.border1x:hover{
+    box-shadow: 0 0 5px #122b40;
+
+}.owl-prev{
+     top: calc(50%);
+     left: 3px;
+     position: absolute;
+     width: 20px;
+     /* height: 35px; */
+     font-size: 35px !important;
+     z-index: 25;
+ }
+.owl-next{
+    top: calc(50%);
+    right: 3px;
+    position: absolute;
+    width: 20px;
+    /* height: 35px; */
+    font-size: 35px !important;
+    z-index: 25;
+}
+.owl-carousel1{
+    position: relative;
+    width: 1470px!important;
+    margin: auto;
+    padding-top: 75px;
+}
+.heart{
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,.25);
+    height: 26px;
+    width: auto;
+    position: absolute;
+    top: 75%;
+    left: calc(50% - 13px);;
+    padding: 3px 5px;
+    display: none;
+}
+.heart-1{
+    color: rgba(54,54,54,0.8);
+    padding: 5px;
+    transform: scale(5);
+    transition: .3s;
+}
+.showra:hover .heart{
+    display: block;
+}
+.heart-1:hover{
+    color: #ec1c24;
+}
+.heartx2{
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,.25);
+    height: 26px;
+    width: auto;
+    position: absolute;
+    top: 65%;
+    left: calc(50% - 13px);
+    padding: 3px 5px;
+    display: none;
+}
+.heart-x2{
+    color: rgba(54,54,54,0.8);
+    padding: 5px;
+    transform: scale(5);
+    transition: .3s;
+}
+.showra:hover .heartx2{
+    display: block;
+}
+.heart-x2:hover{
+    color: #ec1c24;
+}
