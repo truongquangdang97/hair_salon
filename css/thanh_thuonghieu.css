@@ -1,0 +1,20 @@
+.thuonghieu{
+    font-family: 'Playfair Display';
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.padding40px{
+    padding-top: 40px;
+}
+.pdtb img{
+    max-width: 100%;
+}
+.pdtb{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.duongda{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

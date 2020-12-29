@@ -444,3 +444,37 @@ a.animated-button.victoria-three:hover:after {
 .owl-carousel{
     margin-top: 30px;
 }
+.tem{
+    display: inline-flex;
+    padding: 2px 7px 0;
+    font-size: 10px;
+    line-height: 1.5em;
+    color: #fff;
+    background: gray;
+    text-transform: uppercase;
+    margin-right: 0;
+    max-width: calc( 100% - 30px);
+    width: auto;
+    font-weight: 700;
+}
+.tem-2{
+     display: inline-flex;
+     padding: 2px 7px 0;
+     font-size: 10px;
+     line-height: 1.5em;
+     color: #fff;
+     background: #93af76;
+     text-transform: uppercase;
+     margin-right: 0;
+     max-width: calc( 100% - 30px);
+     width: auto;
+     font-weight: 700;
+}
+.xtem{
+    position: absolute;
+    width: 100px;
+    top: 45px;
+    left: 15px;
+    z-index: 99;
+    float: left;
+}
