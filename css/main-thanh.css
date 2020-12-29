@@ -24,11 +24,16 @@
     cursor: pointer;
 }
 .buttonfake {
+    color: rgba(54,54,54,0.8);
     font-family:"Nunito", sans-serif;
     position: relative;
     overflow: hidden;
 }
-
+.hang6{
+    width: 100%;
+    background-color: #f5f5f5 !important;
+    height: 777px;
+}
 .op05{
     opacity: 0.5;
 }
@@ -138,4 +143,129 @@
 }
 .op05{
     color: #888;
+}
+.h3ez{
+    font-size: 18px;
+}
+.binhthuong{
+    text-decoration: none;
+    color: unset;
+}
+.full1{
+    background-color: black;
+}
+.container{
+    width: 1470px;
+    box-sizing: border-box;
+}
+.doan1{
+    background-color: black;
+    height: 80px;
+
+}
+.doan2{
+    background-color: black;
+}
+.doan3{
+    background-color: black;
+    height: 40px;
+}
+.kho1{
+    background-color: black;
+
+}
+.dangki1{
+    color: #FFFFFF;
+    background-color: black;
+    font-size: 20px;
+    height:50px;
+    width: 450px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.dangki2{
+    text-align: center;
+    font-size: 13px;
+    background-color: #c7254e;
+    height: 50px;
+    width: 150px;
+    padding-top: 15px;
+    color: #FFFFFF;
+}
+.icon{
+    float: left;
+}
+.icon li{
+    font-size: 25px;
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.iconx1{
+    color: deepskyblue;
+}
+.iconx2{
+    color: #ce4844;
+}
+.iconx3{
+    color: red;
+}
+.iconx3:hover{
+    color: red;
+}
+.gach {
+    border-bottom: 1px solid #d5d5d5;
+}
+.doan4{
+    background-color: black;
+}
+
+.full2{
+    padding: 0 50px 0 50px;
+    background-color: black;
+}
+
+.gom1{
+    background-color: black;
+}
+.songsong{
+    color:#FFFFFF;
+    font-size: 16px;
+}
+.Seoulista2{
+    color: #d5d5d5;
+    font-size: 14px;
+}
+.menugioithieu{
+    color: #d5d5d5;
+}
+.menugioithieu:hover{
+    text-decoration: none;
+    color: #ce4844;
+}
+.full3{
+    background-color: black;
+}
+.ttnhanhieu{
+    color: #d5d5d5;
+}
+.iso{
+    text-align: center;
+    height: 100px;
+    background-color: black;
+    color: #FFFFFF;
+}
+.hang6 img{
+    width: 350px;
+    height: 525px;
+    overflow: hidden;
+}
+.binhthuong:hover{
+    text-decoration: none;
+
+    color: unset;opacity: 0.6;
+}
+.h3ez:hover{
+    opacity: 0.5;
 }
