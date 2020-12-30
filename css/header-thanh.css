@@ -317,18 +317,19 @@ body{
     height: 523px;
     position: relative;
     margin: auto;
+    overflow: hidden;
 }
 .text{
     position: absolute;
-    top: 122px;
-    left: 490px;
+    top: 15%;
+    left: 20%;
     z-index: 30;
 }
 .textr{
     position: absolute;
     float: right !important;
-    top: 122px;
-    right: 490px;
+    top: 15%;
+    right: 20%;
     z-index: 30;
 }
 .anoi{
