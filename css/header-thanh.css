@@ -478,3 +478,12 @@ a.animated-button.victoria-three:hover:after {
     z-index: 99;
     float: left;
 }
+.cuonttrang{
+
+    width: 100%;
+    position: fixed;
+    top:0;
+    margin: auto;
+    z-index: 1000;
+    transition: 0.5s;
+}

@@ -17,7 +17,7 @@ img{
     width: 100%;
 }
 .container{
-    width: 1470px;
+    width: 1470px !important;
 }
 #top.header-1{
     background-color: #111111;

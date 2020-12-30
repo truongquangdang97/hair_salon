@@ -49,7 +49,6 @@
     position: absolute;
     width: 100%;
     text-transform: uppercase;
-
     opacity: 0;
     transform: translate(0,100%);
     transition: all .3s ease-in-out;
@@ -111,7 +110,7 @@
     transform: scale(5);
     transition: .3s;
 }
-.showra:hover .heart{
+.xzy:hover .heart{
     display: block;
 }
 .heart-1:hover{
@@ -135,7 +134,7 @@
     transform: scale(5);
     transition: .3s;
 }
-.showra:hover .heartx2{
+.xzy:hover .heartx2{
     display: block;
 }
 .heart-x2:hover{
@@ -209,10 +208,10 @@
     color: #ce4844;
 }
 .iconx3{
-    color: red;
+    color: #ff0000;
 }
 .iconx3:hover{
-    color: red;
+    color: #ff0000;
 }
 .gach {
     border-bottom: 1px solid #d5d5d5;
