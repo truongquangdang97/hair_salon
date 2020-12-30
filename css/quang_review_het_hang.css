@@ -1,8 +1,11 @@
 *{
+    line-height: 2;
     font-family: unset;
+    letter-spacing: 1px;
+
 }
 body{
-    font-family: inherit;
+    font-family:Nunito;
     font-size: 16px;
 }
 
@@ -433,6 +436,11 @@ body{
     text-decoration-line: line-through;
 }
 .price-2{
+    color: red;
+    font-size: 25px;
+    margin-left: 5px;
+}
+.price1-3{
     color: red;
     font-size: 25px;
     margin-left: 5px;
