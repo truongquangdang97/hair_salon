@@ -14,7 +14,7 @@
      <div class="container">
          <div class="menu">
              <ul>
-                 <a href="#"><img src="imgsblog/Logo-theSoulmate.png" height="85" width="290"/> </a>
+                 <a href="#"><img src="imgsblog/Logo-theSoulmate.png"/> </a>
                  <li class="search"><a href="#"><i class="fas fa-search"></i></a></li>
                  <li><a href="#"><button class="button type4">SEOULISTA TIPS</button></a></li>
                  <li><a href="#"><button class="button type4">REVIEWS</button></a></li>
@@ -26,34 +26,55 @@
          </div>
 
          <div class="slice">
-             <div class="card">
-                 <div class="img-container">
-                     <div class="col-md-6">
-                     <img src="imgsblog/1.jpg"/>
+                 <div class="col-md-6">
+                     <div class="box-1">
+                         <div class="img-bot"><img src="imgsblog/1.jpg" height="440" width="530"/></div>
+                         <div class="text-bot">
+                             <h2>Review tinh chất Make P:rem C-10</h2>
+                             <h3>Radiance Amplifying Serum</h3>
+                             <p>hanhchi-4 THÁNG BA,2020</p>
+                         </div>
                      </div>
                  </div>
-                 <div class="left">
-                     <h2>Review tinh chất Make P:rem C-10</h2>
-                     <h3>Radiance Amplifying Serum</h3>
-                     <p>hanhchi-4 THÁNG BA,2020</p>
-                 </div>
-             </div>
-             <div class="img-right">
                  <div class="col-md-6">
-                     <img src="imgsblog/Hyperpigmentation-01-533x261.jpg" height="200" width="500"/>
+                     <div class="box-2">
+                         <div class="img-bot"><img src="imgsblog/Hyperpigmentation-01-533x261.jpg" height="210" width="500"/></div>
+                         <div class="text-bot">
+                             <div class="text-2"><a href="#">SKINCARE</a></div>
+                             <h3>Dưỡng da cơ bản với Vitamin A-B-C</h3>
+                         </div>
+                     </div>
                  </div>
-             </div>
-             <div class="img-right-bottom">
                  <div class="col-md-6">
-
-                     <img src="imgsblog/Thesoulmate_duong-da-co-ban-voi-vitamin-A-B-C-01-533x261.jpg" height="200" width="500"/>
+                     <div class="box-3">
+                         <div class="img-bot"><img src="imgsblog/Thesoulmate_duong-da-co-ban-voi-vitamin-A-B-C-01-533x261.jpg" height="210" width="500"/></div>
+                         <div class="text-bot">
+                             <div class="text-2"><a href="#">SKINCARE</a></div>
+                             <h3>Dưỡng da cơ bản với Vitamin A-B-C</h3>
+                         </div>
+                     </div>
                  </div>
-             </div>
 
          </div>
+
          <div class="banner">
-
-         </div>
+             <div class="text">
+                 <h4>BÀI NỔI BẬT</h4>
+                 <div class="dash"></div>
+             </div>
+             <div class="col-md-4">
+             <img src="imgsblog/seoulista.vn-chat-chong-oxy-hoa-tot-cho-da-324x235.jpg" height="235" width="324"/>
+                 <div class="text-1">
+                     <p><a href="#"> Gốc tự do và Lợi ích của chất chống oxy hóa</a></p>
+                 </div>
+             </div>
+             <div class="col-md-4">
+                 <img src="imgsblog/DYsiAPuV4AA2nzn-324x235.jpg" height="235" width="324"/>
+             </div>
+             <div class="col-md-4">
+                 <img src="imgsblog/Review-324x235.png" height="235" width="324"/>
+             </div>
+             </div>
 
          <div class="content">
 
@@ -64,5 +85,31 @@
          </div>
 
      </div>
+
+
+     <script type="text/javascript">
+         document.addEventListener("DOMContentLoaded",function() {
+             var menu = document.querySelectorAll('.menu');
+             var menu = menu[0];
+             //Truy xuất div menu
+             var trangthai="duoi300";
+             window.addEventListener("scroll",function(){
+                 var x = pageYOffset;
+                 if(x > 200){
+                     if(trangthai == "duoi300")
+                     {
+                         trangthai="tren300";
+                         menu.classList.add('cuonttrang');
+                     }
+                 }
+                 else{
+                     if(trangthai=="tren300"){
+                         menu.classList.remove('cuonttrang');
+                         trangthai="duoi300";}
+                 }
+
+             })
+         });
+     </script>
 </body>
 </html>
