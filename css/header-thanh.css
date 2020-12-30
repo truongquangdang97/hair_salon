@@ -322,14 +322,14 @@ body{
 .text{
     position: absolute;
     top: 15%;
-    left: 20%;
+    left: 23%;
     z-index: 30;
 }
 .textr{
     position: absolute;
     float: right !important;
     top: 15%;
-    right: 20%;
+    right: 23%;
     z-index: 30;
 }
 .anoi{
