@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Review</title>
-    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/quang_review.css">
     <link rel="stylesheet" href="lib/fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="css/quang_review.css">
     <link rel="stylesheet" href="lib/bootsrap 3.4.1/css/bootstrap.css">
-
+    <link rel="stylesheet" href="css/nav-1.css">
+    <link rel="stylesheet" href="css/footer_q.css">
+    <link rel="stylesheet" href="css/header-thanh.css">
 
 </head>
 <body>
+<header id="header"></header>
+<nav class="section nav">
+    <div id="nav"></div>
+</nav>
 <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -75,7 +80,7 @@
                     <span class="word"><a class="word-1" href="#"><b>-</b></a></span>
                     <span class="number ">1</span>
                     <span class="cong"><a class="cong1" href="#"><b>+</b></a></span>
-                    <span class="muahang">Mua Hàng </span>
+                    <button class="muahang">Mua Hàng </button>
                 </div>
                 <p class="cach"></p>
                 <div class="duoimuahang">
@@ -93,15 +98,12 @@
                 <div class="tukhoa">
                     DANH MỤC: Chăm sóc da, Làm sạch hai bước, Tẩy trang, Sữa rửa mặt, Set Dưỡng da, Các loại da, Da thường, Da khô, Da dầu, mụn, Da hỗn hợp, Da nhạy cảm, Da lão hóa, chua-phan-loai
                 </div>
-
                 <div class="tukhoa">
                     TỪ KHÓA: Make P:rem sữa rửa mặt, make prem tẩy trang
                 </div>
-
             </div>
         </div>
     </div>
-
     <div class="abc" style="">
             <span class="pointer" onclick="active(0)">
                 MÔ TẢ
@@ -186,7 +188,6 @@
                             <label class="star star-1" for="star-1"></label>
                         </form>
                     </div>
-
                     <p>  ĐÁNH GIÁ CỦA BẠN *</p>
                     <p class="form-floating">
                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
@@ -204,12 +205,12 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-
 </div>
-
+<footer id="footer">
+    <div class="section nenden"></div>
+</footer>
 
 
 
@@ -283,7 +284,9 @@
     }
 </script>
 
-
+<script src="js/header.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/footer_q.js"></script>
 
 </body>
 </html>

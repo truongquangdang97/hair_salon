@@ -1,10 +1,9 @@
 *{
-    line-height: 2;
-    font-family: unset;
-    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
 }
 body{
-    font-family: inherit;
+    font-family: Nunito, sans-serif;
     font-size: 16px;
 }
 
@@ -40,9 +39,6 @@ body{
     height: auto;
     display: none;
 }
-
-
-
 
 .showoutout-container {
     max-width: 100%;
@@ -175,9 +171,14 @@ body{
 }
 .muahang{
     color: #FFFFFF;
-    padding: 15px 40px 15px 40px;
-    background-color: red;
-    font-size: 20px;
+    padding: 8px 45px;
+    background-color: #ec1c24;
+    font-size: 16px;
+    border: none;
+    transition: .3s;
+}
+.muahang:hover{
+    opacity: 0.8;
 }
 .duoimuahang1{
     color: #999999;
@@ -455,11 +456,6 @@ body{
 .cong1:hover{
     color: #999999;
     text-decoration: none;
-}
-.muahang{
-    padding: 15px 40px 15px 40px;
-    background-color: red;
-    font-size: 20px;
 }
 .duoimuahang1{
     color: #999999;

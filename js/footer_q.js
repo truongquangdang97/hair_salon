@@ -1,5 +1,5 @@
 function footer() {
-    return"<div class=\"section nenden\">\n" +
+    return"<div class=\"section nendenx1\">\n" +
         "        <div class=\" container \">\n" +
         "            <div class=\"full1\">\n" +
         "                <div class=\"\">\n" +
