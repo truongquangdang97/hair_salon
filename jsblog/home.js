@@ -1,4 +1,4 @@
-function home(){
+function header(){
     return " <div className=\"container\">\n" +
         "        <div className=\"menu\">\n" +
         "          <ul>\n" +
@@ -11,10 +11,7 @@ function home(){
         "            <li><a href=\"#\"><button className=\"button type4\">SKINCARE</button></a></li>\n" +
         "          </ul>\n" +
         "        </div>\n" +
-        "      </div>\n" +
-        "    );\n" +
-        "  }\n" +
-        "});"
+        "      </div>\n"
 }
-var hd = document.getElementById("home");
-hd.innerHTML = home();
+var hd = document.getElementById("header");
+hd.innerHTML = header();
