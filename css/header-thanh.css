@@ -4,6 +4,7 @@
     box-sizing:border-box
 }
 body{
+    font-family: Nunito, sans-serif;
 }
 .mini B{
     padding-bottom: 10px;
@@ -36,7 +37,7 @@ body{
 .top-right-1 li{
     float: right;
     list-style: none;
-    margin: 0 10px;
+    padding-left: 15px;
 }
 .top-right-1 a{
     color: #fff;
@@ -299,7 +300,9 @@ body{
     max-width: 120px;
     padding-top: 15px;
 }
-
+.ez{
+    padding-right: 15px;
+}
 
 
 
@@ -313,23 +316,23 @@ body{
 
 }
 .box1{
- width: 100%;
+    overflow: hidden;
+    width: 100%;
     height: 523px;
     position: relative;
     margin: auto;
-    overflow: hidden;
 }
 .text{
     position: absolute;
     top: 15%;
-    left: 20%;
+    left: 23%;
     z-index: 30;
 }
 .textr{
     position: absolute;
     float: right !important;
     top: 15%;
-    right: 20%;
+    right: 23%;
     z-index: 30;
 }
 .anoi{

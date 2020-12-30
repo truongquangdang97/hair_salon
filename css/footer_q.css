@@ -1,54 +1,43 @@
-.full1{
-    background-color: black;
-}
-.container{
-    box-sizing: border-box;
-}
-.doan1{
-    background-color: black;
-    height: 80px;
-
-}
 .doan2{
-    background-color: black;
+    padding: 50px 0;
 }
-.doan3{
-    background-color: black;
-    height: 40px;
-}
-.kho1{
-    background-color: black;
-
+.doan4{
+    padding: 50px 0;
 }
 .dangki1{
     color: #FFFFFF;
-    background-color: black;
-    font-size: 20px;
-    height:50px;
-    width: 450px;
-    margin-left: 20px;
-    padding-top: 10px;
+    font-size: 25px;
+    padding: 15px;
 }
 .dangki2{
+    cursor: pointer;
     text-align: center;
+    margin-top: 10px;
     font-size: 13px;
-    background-color: #c7254e;
-    height: 50px;
-    width: 150px;
-    padding-top: 15px;
+    background-color: #ec1c24 !important;
+    padding: 15px;
     color: #FFFFFF;
+    border-radius: 4px;
+}
+.dangki2-1{
+    color: white;
+}
+.dangki2 .dangki2-1:hover{
+    text-decoration: none;
+    color: white;
 }
 .icon{
-    float: left;
+    float: right;
+    margin-top: 15px;
 }
 .icon li{
     font-size: 25px;
     float: left;
     list-style: none;
     margin-left: 30px;
-    margin-top: 10px;
 }
 .iconx1{
+    cursor: pointer;
     color: deepskyblue;
 }
 .iconx2{
@@ -62,18 +51,6 @@
 }
 .gach {
     border-bottom: 1px solid #d5d5d5;
-}
-.doan4{
-    background-color: black;
-}
-
-.full2{
-    padding: 0 50px 0 50px;
-    background-color: black;
-}
-
-.gom1{
-    background-color: black;
 }
 .songsong{
     color:#FFFFFF;
@@ -90,15 +67,14 @@
     text-decoration: none;
     color: #ce4844;
 }
-.full3{
-    background-color: black;
-}
 .ttnhanhieu{
     color: #d5d5d5;
 }
 .iso{
+    padding: 40px 0 60px 0;
     text-align: center;
-    height: 100px;
-    background-color: black;
     color: #FFFFFF;
+}
+.nenden{
+    background-color: black!important;
 }
