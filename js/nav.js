@@ -166,7 +166,7 @@ function nav(){
         "                        </li>\n" +
         "                        <li>\n" +
         "                            <div class=\"top-left-3-0\">\n" +
-        "                                <a class=\"top-left-3-1 text-ct\" href=\"\">THƯƠNG HIỆU</a> <i class=\"fas fa-angle-down\"></i>\n" +
+        "                                <a class=\"top-left-3-1 text-ct\" href=\"tu_thuonghieu.html\">THƯƠNG HIỆU</a> <i class=\"fas fa-angle-down\"></i>\n" +
         "                            </div>\n" +
         "                            <ul class=\"menu\">\n" +
         "                                <li class=\"menu-1\">\n" +
