@@ -222,7 +222,7 @@ function nav(){
         "                        <i class=\"fa-15z far fa-user-circle\"></i>\n" +
         "                    </li>\n" +
         "                    <li class=\"fr\">\n" +
-        "                        <i class=\"fa-15z fas fa-shopping-cart\"></i>\n" +
+        "                        <a href=\"thanh_giohang.html\"><i class=\"fa-15z fas fa-shopping-cart\"></i></a>\n" +
         "                    </li>\n" +
         "                </div>\n" +
         "            </div>\n" +
