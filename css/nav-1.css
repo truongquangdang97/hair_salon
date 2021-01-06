@@ -302,7 +302,7 @@
     float: right !important;
 }
 .fr>a{
-    color: unset ;
+    color: unset !important; ;
 }
 .fa-15z{
     font-size: 1.2em !important;
