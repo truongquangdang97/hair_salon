@@ -371,6 +371,9 @@ img{
     color: rgba(54,54,54,0.55);
     transition: .2s;
 }
+.fonchu h2{
+    font-size: 36px !important;
+}
 .text-ct-3-1:hover{
     color: #ec1c24;
     text-decoration: none;
