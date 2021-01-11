@@ -2,7 +2,7 @@ function nav(){
     return"<div class=\"nav-1\">\n" +
         "            <div class=\"container\">\n" +
         "                <div class=\"top-left-2\">\n" +
-        "                    <a href=\"\"><img src=\"imgs/seoulista-logo.png\" width=\"116\" height=\"44\" /></a>\n" +
+        "                    <a href=\"Home-thanh.html\"><img src=\"imgs/seoulista-logo.png\" width=\"116\" height=\"44\" /></a>\n" +
         "                </div>\n" +
         "                <div class=\"top-left-3\">\n" +
         "                    <ul>\n" +
@@ -12,7 +12,7 @@ function nav(){
         "                            </div>\n" +
         "                            <ul class=\"menu\">\n" +
         "                                <li class=\"menu-1\">\n" +
-        "                                    <a class=\"menu-1-1\" href=\"\">CHĂM SÓC DA</a>\n" +
+        "                                    <a class=\"menu-1-1\" href=\"Tu_chamsocda.html\">CHĂM SÓC DA</a>\n" +
         "                                    <ul class=\"menu-1-2\">\n" +
         "                                        <li>\n" +
         "                                            <div class=\"menu-1-3\">\n" +
@@ -166,7 +166,7 @@ function nav(){
         "                        </li>\n" +
         "                        <li>\n" +
         "                            <div class=\"top-left-3-0\">\n" +
-        "                                <a class=\"top-left-3-1 text-ct\" href=\"\">THƯƠNG HIỆU</a> <i class=\"fas fa-angle-down\"></i>\n" +
+        "                                <a class=\"top-left-3-1 text-ct\" href=\"tu_thuonghieu.html\">THƯƠNG HIỆU</a> <i class=\"fas fa-angle-down\"></i>\n" +
         "                            </div>\n" +
         "                            <ul class=\"menu\">\n" +
         "                                <li class=\"menu-1\">\n" +
@@ -193,7 +193,7 @@ function nav(){
         "                        </li>\n" +
         "                        <li>\n" +
         "                            <div class=\"top-left-3-0\">\n" +
-        "                                <a class=\"top-left-3-1 text-ct\" href=\"\">GIẢM GIÁ</a></i>\n" +
+        "                                <a class=\"top-left-3-1 text-ct\" href=\"tu_giamgia.html\">GIẢM GIÁ</a></i>\n" +
         "                            </div>\n" +
         "                        </li>\n" +
         "                        <li>\n" +
@@ -219,10 +219,10 @@ function nav(){
         "                        <i class=\"fa-15z fas fa-search\"></i>\n" +
         "                    </li>\n" +
         "                    <li class=\"fr\">\n" +
-        "                        <i class=\"fa-15z far fa-user-circle\"></i>\n" +
+        "                        <a href=\"acount_tu.html\"><i class=\"fa-15z far fa-user-circle\"></i></a>\n" +
         "                    </li>\n" +
         "                    <li class=\"fr\">\n" +
-        "                        <i class=\"fa-15z fas fa-shopping-cart\"></i>\n" +
+        "                        <a href=\"thanh_giohang.html\"><i class=\"fa-15z fas fa-shopping-cart\"></i></a>\n" +
         "                    </li>\n" +
         "                </div>\n" +
         "            </div>\n" +

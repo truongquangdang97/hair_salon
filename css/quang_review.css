@@ -223,7 +223,11 @@ body{
 
 /* khi được hover, active đổi màu nền */
 
-
+.no-sale{
+    padding: 10px 0;
+    text-align: center;
+    border: 1px dashed #122b40;
+}
 .danhgia{
     font-size: 20px;
 }

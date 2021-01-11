@@ -296,9 +296,13 @@
     font-weight: 700;
 }
 .fr{
+    cursor: pointer;
     padding-left: 25px;
     line-height: 3em;
     float: right !important;
+}
+.fr>a{
+    color: unset ;
 }
 .fa-15z{
     font-size: 1.2em !important;

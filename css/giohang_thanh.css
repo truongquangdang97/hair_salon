@@ -1,0 +1,33 @@
+.fontchu{
+    font-family: "Playfair Display";
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.fontchu>h1{
+    text-transform: unset;
+    font-size:60px
+}
+.fontchunho>p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.fontchunho>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ec1c24;
+}
+.return{
+    font-size: 1.2em!important;
+    font-weight: 700!important;
+    display: block;
+}
+.return:after{
+    content: "";
+    margin-bottom: 85px;
+    border-bottom: 2px solid #ec1c24;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 224px;
+}
+
