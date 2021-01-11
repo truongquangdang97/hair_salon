@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tài khoản - Seoulista Vietnam</title>
+    <link rel="stylesheet" href="lib/bootsrap 3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/fontawesome-free-5.15.1-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/acount_tu.css">
+    <link rel="stylesheet" href="css/nav-1.css">
+    <link rel="stylesheet" href="css/header-thanh.css">
+    <link rel="stylesheet" href="css/footer_q.css">
+</head>
+<body>
+    <header id="header"></header>
+    <nav id="nav" class="section nav"></nav>
+    <section class="section main-acount">
+        <div class="container">
+            <div class="row">
+                <div class="acount indexing">
+        <span class="sign-in indexing1" onclick="active1(0)">
+            <a style="text-decoration: none" href="#">Đăng Nhập</a>
+        </span>
+                    <span>/</span>
+                    <span class="sign-up indexing1"onclick="active1(1)">
+            <a style="text-decoration: none" class="sign-up-2" href="#">Đăng Ký</a>
+        </span>
+                </div>
+                <div class="photograp">
+                    <div class="photograp1">
+                        <div class="import">
+                            <p>
+                                <label for="username">TÊN TÀI KHOẢN HOẶC ĐỊA CHỈ EMAIL *</label>
+                                <input id="username" class="email" type="email">
+                            </p>
+                            <p>
+                                <label for="password">MẬT KHẨU *</label>
+                                <input id="password" class="password" type="password">
+                            </p>
+                            <p>
+                                <button class="button" type="submit">
+                                    ĐĂNG NHẬP
+                                </button>
+                                <br>
+                                <input class="memori" type="checkbox"> <b>GHI NHỚ MẬT KHẨU</b>
+                                <label class="bot" for="remember">
+                                    <a id="remember" class="remember" href="#">QUÊN MẬT KHẨU?</a>
+                                </label>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="photograp1">
+                        <div class="import">
+                            <p>
+                                <label for="usernamez">ĐỊA CHỈ EMAIL *</label>
+                                <input id="usernamez" class="email" type="email">
+                            </p>
+                            <p>
+                                <label for="passwordz">MẬT KHẨU *</label>
+                                <input id="passwordz" class="password" type="password">
+                            </p>
+                            <p>
+                                <input class="memori-2" type="checkbox"> <b>ĐĂNG KÝ NHẬN THÔNG TIN QUA EMAIL</b>
+                                <button class="button button-2" type="submit">
+                                    ĐĂNG KÝ
+                                </button>
+                                <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer"></footer>
+    <script src="js/header.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/footer_q.js"></script>
+    <script>
+        //khai báo biến slideIndex đại diện cho slide hiện tại
+        var moved ;
+        // KHai bào hàm hiển thị slide
+        function showSlides() {
+            var i;
+            var PHOTOGRAP1 = document.getElementsByClassName("photograp1");
+            var INDEXING1 = document.getElementsByClassName("indexing1");
+            for (i = 0; i < PHOTOGRAP1.length; i++) {
+                PHOTOGRAP1[i].style.display = "none";
+            }
+            for (i = 0; i < INDEXING1.length; i++) {
+                INDEXING1[i].className =INDEXING1[i].className.replace(" active", "");
+            }
+            PHOTOGRAP1[moved].style.display = "block";
+            INDEXING1[moved].className += " active";
+            //chuyển đến slide tiếp theo
+            moved++;
+            //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+            if (moved > PHOTOGRAP1.length - 1) {
+                moved = 0
+            }
+            //tự động chuyển đổi slide sau 5s
+            setTimeout(showSlides, 1500000);
+        }
+        //mặc định hiển thị slide đầu tiên
+        showSlides(moved = 0);
+        function active1(n) {
+            showSlides(moved = n);
+        }
+    </script>
+</body>
+</html>

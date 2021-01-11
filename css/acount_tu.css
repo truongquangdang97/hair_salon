@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #545454;
+    font-family: "Nunito", sans-serif;
+}
+
+.main-acount{
+    font-size: 12px;
+}
+.acount{
+    padding-top: 85px;
+    text-align: center;
+    font-size: 56px;
+}
+.sign-in a{
+    font-weight: 700;
+    color: black;
+    transition: .2s;
+}
+.sign-in a:hover{
+    text-decoration: none;
+    color: #545454;
+}
+.sign-up a{
+    font-weight: 700;
+    color: #545454;
+    transition: .2s;
+}
+.sign-up a:hover{
+    text-decoration: none;
+    color: black;
+}
+.import{
+    padding-bottom: 100px;
+    margin: 0 480px;
+    max-width: 500px;
+}
+.email{
+    border: 1px solid rgba(84,84,84,0.1) !important;
+    width: 100%;
+    padding: 10px;
+    transition: .1s;
+    color: #444;
+}
+.email:focus{
+    outline: none;
+    background-color: #f7f7f7;
+}
+.password{
+    padding: 10px;
+    border: 1px solid rgba(84,84,84,0.1) !important;
+    width: 100%;
+}
+.password:focus{
+    outline: none;
+    background-color: #f7f7f7;
+}
+.button{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    background-color: #dd3333;
+    color: #fff;
+    font-weight: 700;
+    transition: .3s;
+}
+.button:hover{
+    color: #000;
+    opacity: 0.6;
+}
+.button-2{
+    margin-top: 20px;
+}
+.import p{
+    margin: 30px 0 20px 0;
+}
+.import p button {
+    margin-bottom: 25px;
+}
+.remember:hover{
+    text-decoration: none;
+}
+.bot{
+    float: right;
+}
+.photograp1{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+@-webkit-keyframes fade {
+    from {opacity: 1}
+    to {opacity: 0.2}
+}
+
+@keyframes fade {
+    from {opacity: 0.2}
+    to {opacity: 1}
+}
+
