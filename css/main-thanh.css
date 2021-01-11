@@ -188,3 +188,7 @@
 .h3ez:hover{
     opacity: 0.5;
 }
+.showra a{
+    color: unset;
+    text-decoration: unset;
+}
