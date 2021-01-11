@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header_boss{
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 42px;
+    font-weight: 400;
+    color: #545454;
+
+}
+.main{
+    font-family: "Nunito",-apple-system,BlinkMacSystemFont,Arial,Helvetica,'Helvetica Neue',Verdana,sans-serif;
+    color: #545454;
+    font-weight: normal;
+    line-height: 1.5;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+   text-decoration: none;
+    color: #FA8072;
+}
+.row{
+    font-size: 18px;
+}
+.nav-boss{
+    padding-top: 50px;
+}
+.thanh{
+    border-bottom: 3px solid #ee2c2c;
+    height: 1px;
+    width: 50px;
+}
