@@ -12,7 +12,7 @@ function nav(){
         "                            </div>\n" +
         "                            <ul class=\"menu\">\n" +
         "                                <li class=\"menu-1\">\n" +
-        "                                    <a class=\"menu-1-1\" href=\"\">CHĂM SÓC DA</a>\n" +
+        "                                    <a class=\"menu-1-1\" href=\"Tu_chamsocda.html\">CHĂM SÓC DA</a>\n" +
         "                                    <ul class=\"menu-1-2\">\n" +
         "                                        <li>\n" +
         "                                            <div class=\"menu-1-3\">\n" +
