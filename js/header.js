@@ -3,7 +3,7 @@ function header() {
         "        <div id=\"top\" class=\"header-1\">\n" +
         "            <div class=\"container\">\n" +
         "                <div class=\"top-left-1\">\n" +
-        "                    <div class=\"text-top\">Free Shipping nội thành từ 500k, tỉnh thành khác từ 1.000K</div>\n" +
+        "                    <div class=\"text-top\">Địa chỉ: 380 phố Đội Cấn, P. Cống Vị, Q.Ba Đình, Hà Nội, Việt Nam.</div>\n" +
         "                </div>\n" +
         "                <div class=\"top-right-1\">\n" +
         "                    <ul>\n" +

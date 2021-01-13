@@ -76,10 +76,10 @@ function footer() {
         "                            <p class=\"songsong\">\n" +
         "                                Giới thiệu\n" +
         "                            </p>\n" +
-        "                            <p><a class=\"menugioithieu\" href=\"#\">Về Seoulista.vn</a></p>\n" +
+        "                            <p><a class=\"menugioithieu\" href=\"gioi_thieu_tuan.html\">Về Seoulista.vn</a></p>\n" +
         "                            <p><a class=\"menugioithieu\" href=\"#\">Về Blog Soulmate.vn</a></p>\n" +
+        "                            <p><a class=\"menugioithieu\" href=\"lien_he_tuan.html\">Liên Hệ Với Chúng Tôi</a></p>\n" +
         "                            <p><a class=\"menugioithieu\" href=\"#\">Sitemap</a></p>\n" +
-        "                            <p><a class=\"menugioithieu\" href=\"#\">Liên hệ</a></p>\n" +
         "                        </div>\n" +
         "                    </div>\n" +
         "                    <div class=\"col-md-2\">\n" +
