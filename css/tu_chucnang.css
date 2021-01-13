@@ -444,6 +444,7 @@ img{
     float: left;
     width: 75%;
     padding: 80px 0 0 20px;
+    margin-left: 80px;
 }
 .borderbt{
     margin: 40px 0;
