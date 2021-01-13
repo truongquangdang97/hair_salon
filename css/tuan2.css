@@ -8,14 +8,15 @@
     font-family: 'Playfair Display';
     font-size: 42px;
     font-weight: 400;
-    color: #545454;
-
+    color: #000;
+    margin-top: 80px;
 }
 .main{
     font-family: "Nunito",-apple-system,BlinkMacSystemFont,Arial,Helvetica,'Helvetica Neue',Verdana,sans-serif;
     color: #545454;
     font-weight: normal;
     line-height: 1.5;
+    padding-right: 20px;
 }
 a {
     text-decoration: none;
@@ -28,10 +29,16 @@ a:hover{
     font-size: 18px;
 }
 .nav-boss{
+    font-size: 14px;
     padding-top: 50px;
+    padding-left: 20px;
 }
 .thanh{
-    border-bottom: 3px solid #ee2c2c;
-    height: 1px;
+    border-bottom: 2px solid #ee2c2c;
     width: 50px;
+    margin-bottom: 35px;
+}
+h3{
+    color: black;
+    font-size: 33px;
 }
