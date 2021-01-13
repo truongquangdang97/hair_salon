@@ -16,18 +16,18 @@ function nav(){
         "                                    <ul class=\"menu-1-2\">\n" +
         "                                        <li>\n" +
         "                                            <div class=\"menu-1-3\">\n" +
-        "                                                <a class=\"menu-1-4\" href=\"\">Quy trình dưỡng da</a> <i class=\"fas fa-angle-right \"></i>\n" +
+        "                                                <a class=\"menu-1-4\" href=\"tu_qtdd.html\">Quy trình dưỡng da</a> <i class=\"fas fa-angle-right \"></i>\n" +
         "                                            </div>\n" +
         "                                            <ul class=\"menu-1-5\">\n" +
         "                                                <li>\n" +
-        "                                                    <div class=\"menu-1-6\"><a class=\"menu-1-7\" href=\"\">Làm sạch</a> <i class=\"fas fa-angle-right \"></i></div>\n" +
+        "                                                    <div class=\"menu-1-6\"><a class=\"menu-1-7\" href=\"T_lamsach.html\">Làm sạch</a> <i class=\"fas fa-angle-right \"></i></div>\n" +
         "                                                    <ul class=\"menu-1-8\">\n" +
-        "                                                        <li><a href=\"\">Tẩy trang</a></li>\n" +
+        "                                                        <li><a href=\"tu_taytrang.html\">Tẩy trang</a></li>\n" +
         "                                                        <li><a href=\"\">Sữa rửa mặt</a></li>\n" +
         "                                                    </ul>\n" +
         "                                                </li>\n" +
         "                                                <li>\n" +
-        "                                                    <div class=\"menu-1-6\"><a class=\"menu-1-7\" href=\"\">Tẩy da chết</a> <i class=\"fas fa-angle-right \"></i></div>\n" +
+        "                                                    <div class=\"menu-1-6\"><a class=\"menu-1-7\" href=\"Tu_tayda.html\">Tẩy da chết</a> <i class=\"fas fa-angle-right \"></i></div>\n" +
         "                                                    <ul class=\"menu-1-11\">\n" +
         "                                                        <li><a href=\"\">Tẩy da chết hóa học</a></li>\n" +
         "                                                        <li><a href=\"\">Tẩy da chết cơ học</a></li>\n" +
@@ -36,7 +36,7 @@ function nav(){
         "                                                <li><a class=\"\" href=\"\">Nước cân bằng</a></li>\n" +
         "                                                <li><a class=\"\" href=\"\">Tinh chất</a></li>\n" +
         "                                                <li>\n" +
-        "                                                    <div class=\"menu-1-6\"><a class=\"menu-1-7\" href=\"\">Dưỡng ẩm</a> <i class=\"fas fa-angle-right \"></i></div>\n" +
+        "                                                    <div class=\"menu-1-6\"><a class=\"menu-1-7\" href=\"tu_duongam.html\">Dưỡng ẩm</a> <i class=\"fas fa-angle-right \"></i></div>\n" +
         "                                                    <ul class=\"menu-1-12\">\n" +
         "                                                        <li><a href=\"\">Kem dưỡng</a></li>\n" +
         "                                                        <li><a href=\"\">Xịt khoáng</a></li>\n" +
@@ -58,20 +58,20 @@ function nav(){
         "                                        </li>\n" +
         "                                        <li>\n" +
         "                                            <div class=\"menu-1-3\">\n" +
-        "                                                <a class=\"menu-1-4\" href=\"\">Các vấn đề về da</a> <i class=\"fas fa-angle-right \"></i>\n" +
+        "                                                <a class=\"menu-1-4\" href=\"tu_cvdvd.html\">Các vấn đề về da</a> <i class=\"fas fa-angle-right \"></i>\n" +
         "                                            </div>\n" +
         "                                            <ul class=\"menu-1-9\">\n" +
         "                                                <li>\n" +
-        "                                                    <div class=\"\"><a class=\"\" href=\"\">Điều trị mụn</a></div>\n" +
+        "                                                    <div class=\"\"><a class=\"\" href=\"Tu_dieutrimun.html\">Điều trị mụn</a></div>\n" +
         "                                                </li>\n" +
         "                                                <li>\n" +
-        "                                                    <div class=\"\"><a class=\"\" href=\"\">Thu nhỏ lỗ chân lông</a></div>\n" +
+        "                                                    <div class=\"\"><a class=\"\" href=\"Tu_lochanlong.html\">Thu nhỏ lỗ chân lông</a></div>\n" +
         "                                                </li>\n" +
         "                                                <li>\n" +
-        "                                                    <div class=\"\"><a class=\"\" href=\"\">Trị vết thâm, nám và tàn nhang</a></div>\n" +
+        "                                                    <div class=\"\"><a class=\"\" href=\"Tu_tannhang.html\">Trị vết thâm, nám và tàn nhang</a></div>\n" +
         "                                                </li>\n" +
         "                                                <li>\n" +
-        "                                                    <div class=\"\"><a class=\"\" href=\"\">Dưỡng trắng và làm sáng da</a></div>\n" +
+        "                                                    <div class=\"\"><a class=\"\" href=\"Tu_datrang.html\">Dưỡng trắng và làm sáng da</a></div>\n" +
         "                                                </li>\n" +
         "                                                <li>\n" +
         "                                                    <div class=\"\"><a class=\"\" href=\"\">Cấp nước dưỡng ẩm</a></div>\n" +
@@ -83,17 +83,17 @@ function nav(){
         "                                        </li>\n" +
         "                                        <li>\n" +
         "                                            <div class=\"menu-1-3\">\n" +
-        "                                                <a class=\"menu-1-4\" href=\"\">Các loại da</a> <i class=\"fas fa-angle-right \"></i>\n" +
+        "                                                <a class=\"menu-1-4\" href=\"Tu_cld.html\">Các loại da</a> <i class=\"fas fa-angle-right \"></i>\n" +
         "                                            </div>\n" +
         "                                            <ul class=\"menu-1-10\">\n" +
         "                                                <li>\n" +
-        "                                                    <div class=\"\"><a class=\"\" href=\"\">Da thường</a></div>\n" +
+        "                                                    <div class=\"\"><a class=\"\" href=\"tu_dathuong.html\">Da thường</a></div>\n" +
         "                                                </li>\n" +
         "                                                <li>\n" +
-        "                                                    <div class=\"\"><a class=\"\" href=\"\">Da khô</a></div>\n" +
+        "                                                    <div class=\"\"><a class=\"\" href=\"Tu_dakho.html\">Da khô</a></div>\n" +
         "                                                </li>\n" +
         "                                                <li>\n" +
-        "                                                    <div class=\"\"><a class=\"\" href=\"\">Da dầu, mụn</a></div>\n" +
+        "                                                    <div class=\"\"><a class=\"\" href=\"tu_damun.html\">Da dầu, mụn</a></div>\n" +
         "                                                </li>\n" +
         "                                                <li>\n" +
         "                                                    <div class=\"\"><a class=\"\" href=\"\">Da hỗn hợp</a></div>\n" +
