@@ -4,7 +4,6 @@
 }
 a{
     text-decoration: none;
-
 }
 .container{
     width: 1200px;
@@ -70,7 +69,7 @@ a{
 }
 .text-2 a{
     font-size: 12px;
-    color: #fff;
+    color: #f3eded;
     padding: 3px 5px;
     background-color: #8c8c8c;
     transition: .3s;
@@ -141,6 +140,11 @@ a{
     width: 1070px;
     height: 10px;
 }
+.gach-duoi{
+    width: 1070px;
+    height: 200px;
+    border-bottom: 2px solid #b8a5a5 ;
+}
 .cuonttrang{
     height: 70px;
     width: 100%;
@@ -153,3 +157,48 @@ a{
 .cuonttrang img{
     max-height: 65px;
 }
+.text-1{
+    width: 330px;
+    font-size: 17px;
+    color: black;
+}
+h3{
+    width: 320px;
+    margin: 0;
+}
+.text-content{
+    max-width: 324px;
+}
+.bottom-content a{
+    font-size: 12px;
+    color: #fff;
+    padding: 7px 8px;
+    background-color: pink;
+    transition: .3s;
+}
+.bottom-content p :hover{
+    text-decoration: none;
+    background-color: black;
+}
+.content2{
+    padding-top: 20px;
+}
+.backgroud-color-bottom{
+    width: 340px;
+    background-color: #e5d5d5;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.banner{
+    padding-bottom: 20px;
+}
+.cuoitrang{
+    font-weight: 700;
+    padding: 30px;
+    text-align: center;
+}
+h4{
+    color: #8c8c8c;
+
+}
+
