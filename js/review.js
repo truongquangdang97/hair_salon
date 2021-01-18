@@ -250,7 +250,7 @@ function loaddata() {
         if(this.readyState == 4 && this.status == 200){
             var rs = this.responseText;
 
-            var load=JSON.parse(rs);;
+            var load=JSON.parse(rs);
             //in ra
             var data = document.getElementById("review");
             data.innerHTML = review(load);

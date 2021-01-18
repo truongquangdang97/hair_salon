@@ -172,21 +172,21 @@ function nav(){
         "                                <li class=\"menu-1\">\n" +
         "                                    <a class=\"menu-1-1\" href=\"\">THƯƠNG HIỆU</a>\n" +
         "                                    <ul class=\"menu-4-1\">\n" +
-        "                                        <li><a href=\"\">ACWELL</a></li>\n" +
-        "                                        <li><a href=\"\">COSRX</a></li>\n" +
-        "                                        <li><a href=\"\">BE PLAIN</a></li>\n" +
-        "                                        <li><a href=\"\">DR.CEURACLE</a></li>\n" +
-        "                                        <li><a href=\"\">MAKE P:REM</a></li>\n" +
+        "                                        <li><a href=\"tu_ctth.html?id=1\">ACWELL</a></li>\n" +
+        "                                        <li><a href=\"tu_ctth.html?id=2\">COSRX</a></li>\n" +
+        "                                        <li><a href=\"tu_ctth.html?id=3\">BE PLAIN</a></li>\n" +
+        "                                        <li><a href=\"tu_ctth.html?id=4\">DR.CEURACLE</a></li>\n" +
+        "                                        <li><a href=\"tu_ctth.html?id=5\">MAKE P:REM</a></li>\n" +
         "                                    </ul>\n" +
         "                                </li>\n" +
         "                                <li class=\"menu-1\">\n" +
         "                                    <a class=\"menu-1-1\" href=\"\">THƯƠNG HIỆU</a>\n" +
         "                                    <ul class=\"menu-4-1\">\n" +
-        "                                        <li><a href=\"\">ISNTREE</a></li>\n" +
-        "                                        <li><a href=\"\">REAL BARRIER</a></li>\n" +
-        "                                        <li><a href=\"\">PURITO</a></li>\n" +
-        "                                        <li><a href=\"\">ROUND LAB</a></li>\n" +
-        "                                        <li><a href=\"\">ROVECTIN</a></li>\n" +
+        "                                        <li><a href=\"tu_ctth.html?id=6\">ISNTREE</a></li>\n" +
+        "                                        <li><a href=\"tu_ctth.html?id=7\">REAL BARRIER</a></li>\n" +
+        "                                        <li><a href=\"tu_ctth.html?id=8\">PURITO</a></li>\n" +
+        "                                        <li><a href=\"tu_ctth.html?id=9\">ROUND LAB</a></li>\n" +
+        "                                        <li><a href=\"tu_ctth.html?id=10\">ROVECTIN</a></li>\n" +
         "                                    </ul>\n" +
         "                                </li>\n" +
         "                            </ul>\n" +
