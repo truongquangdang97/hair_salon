@@ -9,12 +9,8 @@ console.log(p);
 function review(riviews){
     var revi = "";
 
-
-    for(var i=0 ; i <1 ; i++){
-        //tìm id của sp
-
-        //sau khi có dc id của sp
-        revi += "<div class=\"container\">\n" +
+    if(riviews.length>=0){
+        revi = "<div class=\"container\">\n" +
             "    <div class=\"row\">\n" +
             "        <div class=\"col-md-6\">\n" +
             "            <div class=\"col-md-3\"></div>\n" +
@@ -22,7 +18,7 @@ function review(riviews){
             "                <div class=\"indexing\">\n" +
             "                    <p class=\"indexing1 active\" onclick=\"active1(0)\">\n" +
             "\n" +
-            "                        <img  src=\""+riviews[i].photo+"\" height=\"71\" width=\"47\"/>\n" +
+            "                        <img  src=\""+riviews[0].photo+"\" height=\"71\" width=\"47\"/>\n" +
             "                    </p>\n" +
             "                    <p class=\"indexing1\"onclick=\"active1(1)\">\n" +
             "\n" +
@@ -32,7 +28,7 @@ function review(riviews){
             "            <div class=\"col-md-1\"></div>\n" +
             "            <div class=\"col-md-5\">\n" +
             "                <div class=\"photograp\">\n" +
-            "                    <img style=\"display: block;\" class=\"photograp1\" src=\""+riviews[i].photo+"\" height=\"714\" width=\"470\"/>\n" +
+            "                    <img style=\"display: block;\" class=\"photograp1\" src=\""+riviews[0].photo+"\" height=\"714\" width=\"470\"/>\n" +
             "                </div>\n" +
             "            </div>\n" +
             "            <div class=\"col-md-1\"></div>\n" +
@@ -51,32 +47,48 @@ function review(riviews){
             "                <p class=\"cach\"></p>\n" +
             "                <p class=\"cach\"></p>\n" +
             "                <div class=\"name\">\n" +
-            "                    <b>"+riviews[i].tenth+"</b>\n" +
+            "                    <b>"+riviews[0].tenth+"</b>\n" +
             "                </div>\n" +
             "                <div class=\"tenphu\">\n" +
-            "                    "+riviews[i].tensp+"\n" +
-            "                </div>\n" +
-            "                <p class=\"cach\"></p>\n" +
-            "                <span class=\"price-2\">"+riviews[i].gia+".000₫</span>\n" +
-            "                <p class=\"cach\"></p>\n" +
-            "                <ul class=\"uses\">\n" +
+            "                    "+riviews[0].tensp+"\n" +
+            "                </div>\n"
+        // sửa giá
+        if(riviews[0].giam==0){
+            revi +="                <p class=\"cach\"></p>\n" +
+                "                <span class=\"price-2\">"+riviews[0].gia+".000₫</span>\n" +
+                "                <p class=\"cach\"></p>\n"
+        }else{
+            revi+="<p class=\"cach\"></p>\n" +
+                "                    <span class=\"price-1\">"+riviews[0].giam+".000 ₫</span>\n" +
+                "                    <span class=\"price-2\">"+riviews[0].gia+".000 ₫</span>\n" +
+                "                    <p class=\"cach\"></p>"
+        }
+
+
+
+        revi+= "                <ul class=\"uses\">\n" +
             "                    <li>Kem chống nắng hóa học</li>\n" +
             "                    <li>SPF 50+ PA ++++ giúp chống nắng tối đa</li>\n" +
             "                    <li>50ML</li>\n" +
             "                    <li>Kết cấu mỏng nhẹ, dễ dàng hấp thụ trên da</li>\n" +
             "                    <li>Phù hợp với mọi loại da.</li>\n" +
             "                </ul>\n" +
-            "                <p class=\"cach\"></p>\n" +
+            "                <p class=\"cach\"></p>\n"
+        // khu vực số lượng
+        if(riviews[0].soluong>0){
+            revi += "<div class=\"demsoluong\">\n" +
+                "                        <span class=\"word\"><a class=\"word-1\" href=\"#\"><b>-</b></a></span>\n" +
+                "                        <span class=\"number \">1</span>\n" +
+                "                        <span class=\"cong\"><a class=\"cong1\" href=\"#\"><b>+</b></a></span>\n" +
+                "                        <button class=\"muahang\">Mua Hàng </button>\n" +
+                "                    </div>"
+        }else{
+            revi += "                <div class=\"demsoluong\">\n" +
+                "                    <div class=\"no-sale \"> Hết Hàng</div>\n" +
+                "                </div>\n"
+        }
 
-
-
-            "                <div class=\"demsoluong\">\n" +
-            "                    <div class=\"no-sale \"> Hết Hàng</div>\n" +
-            "                </div>\n" +
-
-
-
-            "                <p class=\"cach\"></p>\n" +
+        revi +=     "                <p class=\"cach\"></p>\n" +
             "                <div class=\"duoimuahang\">\n" +
             "                        <span class=\"duoimuahang1\">\n" +
             "                            <i class=\"far fa-heart\"></i>\n" +
@@ -90,7 +102,7 @@ function review(riviews){
             "                </div>\n" +
             "                <p class=\"cach\"></p>\n" +
             "                <div class=\"tukhoa\">\n" +
-            "                    DANH MỤC: "+riviews[i].tendm+"\n" +
+            "                    DANH MỤC: "+riviews[0].tendm+"\n" +
             "                </div>\n" +
             "                <div class=\"tukhoa\">\n" +
             "                    TỪ KHÓA: sữa rửa mặt,  tẩy trang\n" +
@@ -150,7 +162,7 @@ function review(riviews){
             "                <div class=\"col-md-9\">\n" +
             "                    <div class=\"col-md-3\">Thương hiệu</div>\n" +
             "                    <div class=\"col-md-9\">\n" +
-            "                        <p>"+riviews[i].tenth+"</p>\n" +
+            "                        <p>"+riviews[0].tenth+"</p>\n" +
             "                    </div>\n" +
             "                    <div class=\"col-md-3\">Loại da</div>\n" +
             "                    <div class=\"col-md-9\">\n" +
@@ -171,7 +183,7 @@ function review(riviews){
             "                    <h4 >Đánh giá </h4>\n" +
             "                    <p>Chưa có đánh giá </p>\n" +
             "                    <h3>\n" +
-            "                        Hãy là người đầu tiên nhận xét “"+riviews[i].tensp+"”\n" +
+            "                        Hãy là người đầu tiên nhận xét “"+riviews[0].tensp+"”\n" +
             "                    </h3>\n" +
             "                    <p>Email của bạn sẽ không được hiển thị công khai. Các trường bắt buộc được đánh dấu *</p>\n" +
             "                    <p>Đánh giá của  *</p>\n" +
@@ -210,7 +222,25 @@ function review(riviews){
             "    </div>\n" +
             "</div>\n"
 
+    }else {
+        revi = "    <div class=\"section\">\n" +
+            "        <div class=\"container text-center\">\n" +
+            "            <div class=\" fontchu\">\n" +
+            "                <h1>Lỗi tìm kiếm</h1>\n" +
+            "            </div>\n" +
+            "            <div class=\"fontchunho\">\n" +
+            "                <i class=\"far fa-10x fa-sad-tear\"></i>\n" +
+            "                <p style=\"padding-top: 50px\">Không tìm thấy sản phẩm.</p>\n" +
+            "                <a href=\"Home-thanh.html\"><p class=\"return\">Quay trở lại trang chủ</p></a>\n" +
+            "\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "    </div>\n"
+
+
     }
+
+
     return revi;
 }
 
@@ -230,62 +260,3 @@ function loaddata() {
     ld.send();
 }
 loaddata();
-
-var moved ;
-// KHai bào hàm hiển thị slide
-function showSlides() {
-    var i;
-    var PHOTOGRAP1 = document.getElementsByClassName("photograp1");
-    var INDEXING1 = document.getElementsByClassName("indexing1");
-    for (i = 0; i < PHOTOGRAP1.length; i++) {
-        PHOTOGRAP1[i].style.display = "none";
-    }
-    for (i = 0; i < INDEXING1.length; i++) {
-        INDEXING1[i].className =INDEXING1[i].className.replace(" active", "");
-    }
-    PHOTOGRAP1[moved].style.display = "block";
-    INDEXING1[moved].className += " active";
-    //chuyển đến slide tiếp theo
-    moved++;
-    //nếu đang ở slide cuối cùng thì chuyển về slide đầu
-    if (moved > PHOTOGRAP1.length - 1) {
-        moved = 0
-    }
-    //tự động chuyển đổi slide sau 5s
-    setTimeout(showSlides, 1500000);
-}
-//mặc định hiển thị slide đầu tiên
-showSlides(moved = 0);
-function active1(n) {
-    showSlides(moved = n);
-}
-
-var viewindex;
-// KHai bào hàm hiển thị slide
-function showoutput() {
-    var i;
-    var OUTPUT = document.getElementsByClassName("output");
-    var POINTER = document.getElementsByClassName("pointer");
-    for (i = 0; i < OUTPUT.length; i++) {
-        OUTPUT[i].style.display = "none";
-    }
-    for (i = 0; i < POINTER.length; i++) {
-        POINTER[i].className = POINTER[i].className.replace(" active", "");
-    }
-
-    OUTPUT[viewindex].style.display = "block";
-    POINTER[viewindex].className += " active";
-    //chuyển đến slide tiếp theo
-    viewindex++;
-    //nếu đang ở slide cuối cùng thì chuyển về slide đầu
-    if (viewindex > OUTPUT.length - 1) {
-        viewindex = 0
-    }
-    //tự động chuyển đổi slide sau 5s
-
-}
-//mặc định hiển thị slide đầu tiên
-showoutput(viewindex = 0);
-function active(n) {
-    showoutput(viewindex = n);
-}

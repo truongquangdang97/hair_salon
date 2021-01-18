@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Review</title>
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="css/quang_review.css">
+    <link rel="stylesheet" href="lib/bootsrap%203.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="css/nav-1.css">
+    <link rel="stylesheet" href="css/footer_q.css">
+    <link rel="stylesheet" href="css/header-thanh.css">
+    <link rel="stylesheet" href="css/giohang_thanh.css">
+
+</head>
+<body>
+<header id="header"></header>
+<nav class="section nav">
+    <div id="nav"></div>
+</nav>
+<section id="review" class="section paddbottop">
+</section>
+
+<footer id="footer">
+    <div class="section nenden"></div>
+</footer>
+
+
+
+
+
+<script src="js/header.js"></script>
+<script src="js/review.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/footer_q.js"></script>
+<script>
+
+    var moved ;
+    // KHai bào hàm hiển thị slide
+    function showSlides() {
+        var i;
+        var PHOTOGRAP1 = document.getElementsByClassName("photograp1");
+        var INDEXING1 = document.getElementsByClassName("indexing1");
+        for (i = 0; i < PHOTOGRAP1.length; i++) {
+            PHOTOGRAP1[i].style.display = "none";
+        }
+        for (i = 0; i < INDEXING1.length; i++) {
+            INDEXING1[i].className =INDEXING1[i].className.replace(" active", "");
+        }
+        PHOTOGRAP1[moved].style.display = "block";
+        INDEXING1[moved].className += " active";
+        //chuyển đến slide tiếp theo
+        moved++;
+        //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+        if (moved > PHOTOGRAP1.length - 1) {
+            moved = 0
+        }
+        //tự động chuyển đổi slide sau 5s
+        setTimeout(showSlides, 1500000);
+    }
+    //mặc định hiển thị slide đầu tiên
+    showSlides(moved = 0);
+    function active1(n) {
+        showSlides(moved = n);
+    }
+
+    var viewindex;
+    // KHai bào hàm hiển thị slide
+    function showoutput() {
+        var i;
+        var OUTPUT = document.getElementsByClassName("output");
+        var POINTER = document.getElementsByClassName("pointer");
+        for (i = 0; i < OUTPUT.length; i++) {
+            OUTPUT[i].style.display = "none";
+        }
+        for (i = 0; i < POINTER.length; i++) {
+            POINTER[i].className = POINTER[i].className.replace(" active", "");
+        }
+
+        OUTPUT[viewindex].style.display = "block";
+        POINTER[viewindex].className += " active";
+        //chuyển đến slide tiếp theo
+        viewindex++;
+        //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+        if (viewindex > OUTPUT.length - 1) {
+            viewindex = 0
+        }
+        //tự động chuyển đổi slide sau 5s
+
+    }
+    //mặc định hiển thị slide đầu tiên
+    showoutput(viewindex = 0);
+    function active(n) {
+        showoutput(viewindex = n);
+    }
+</script>
+</body>
+</html>
