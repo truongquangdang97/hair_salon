@@ -212,6 +212,16 @@ function nav(){
         "                                </li>\n" +
         "                            </ul>\n" +
         "                        </li>\n" +
+        "                        <li>\n" +
+        "                            <div class=\"top-left-3-0\">\n" +
+        "                                <a class=\"top-left-3-1 text-ct\" href=\"gioi_thieu_tuan.html\">ABOUT US</a></i>\n" +
+        "                            </div>\n" +
+        "                        </li>\n" +
+        "                        <li>\n" +
+        "                            <div class=\"top-left-3-0\">\n" +
+        "                                <a class=\"top-left-3-1 text-ct\" href=\"lien_he_tuan.html\">LIÊN HỆ</a></i>\n" +
+        "                            </div>\n" +
+        "                        </li>\n" +
         "                    </ul>\n" +
         "                </div>\n" +
         "                <div class=\"top-right-2\">\n" +

@@ -20,12 +20,15 @@ body{
 }
 .sign-in a{
     font-weight: 700;
-    color: black;
+    color: #545454;
     transition: .2s;
 }
 .sign-in a:hover{
     text-decoration: none;
-    color: #545454;
+    color: black;
+}
+.sign-in a:focus{
+    color: black;
 }
 .sign-up a{
     font-weight: 700;
@@ -34,6 +37,9 @@ body{
 }
 .sign-up a:hover{
     text-decoration: none;
+    color: black;
+}
+.sign-up a:focus{
     color: black;
 }
 .import{
