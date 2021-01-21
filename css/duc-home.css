@@ -147,7 +147,7 @@ a{
 }
 .cuonttrang{
     height: 70px;
-    width: 100%;
+    width: 1200px;
     position: fixed;
     top:0;
     margin: auto;
@@ -203,5 +203,15 @@ h4{
 footer{
     background-color: black;
     padding: 20px;
+}
+.text-test{
+    font-size: 10px;
+}
+span{
+    font-size: 12px;
+    font-weight: 700;
+}
+.search{
+    margin-top: 35px;
 }
 

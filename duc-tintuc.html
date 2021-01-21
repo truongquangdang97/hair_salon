@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>home</title>
+    <link rel="stylesheet" href="lib/bootsrap 3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/footer_q.css">
+    <link rel="stylesheet" href="css/tintuc.css">
+</head>
+<body>
+<div class="container">
+    <div class="menu">
+        <ul>
+            <a href="#"><img src="imgsblog/Logo-theSoulmate.png"/> </a>
+            <li class="search"><a href="#"><i class="fas fa-search"></i></a></li>
+            <li><a href="#"><button class="button type4">SEOULISTA TIPS</button></a></li>
+            <li><a href="#"><button class="button type4">REVIEWS</button></a></li>
+            <li><a href="#"><button class="button type4">LIFESTYLE</button></a></li>
+            <li><a href="#"><button class="button type4">MAKEUP</button></a></li>
+            <li><a href="#"><button class="button type4">SKINCARE</button></a></li>
+
+        </ul>
+    </div>
+    đây là phần chèn(
+
+      )
+</div>
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded",function() {
+        var menu = document.querySelectorAll('.menu');
+        var menu = menu[0];
+        //Truy xuất div menu
+        var trangthai="duoi300";
+        window.addEventListener("scroll",function(){
+            var x = pageYOffset;
+            if(x > 200){
+                if(trangthai == "duoi300")
+                {
+                    trangthai="tren300";
+                    menu.classList.add('cuonttrang');
+                }
+            }
+            else{
+                if(trangthai=="tren300"){
+                    menu.classList.remove('cuonttrang');
+                    trangthai="duoi300";}
+            }
+
+        })
+    });
+</script>
+<footer id="footer">
+    <div class="section container">
+        <div style="color: #fff; line-height: 1.5" class="text-center">
+            <p style="padding-top: 10px">The Soulmate Blog © 2017 - 2020</p>
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>
