@@ -23,7 +23,7 @@ function footer() {
         "                                        </div>\n" +
         "                                        <div class=\"col-md-3\">\n" +
         "                                            <div class=\"dangki2\">\n" +
-        "                                                <a class=\"dangki2-1\" href=\"#\">\n" +
+        "                                                <a class=\"dangki2-1\" href=\"acount_tu.html\">\n" +
         "                                                    ĐĂNG KÍ NGAY\n" +
         "                                                </a>\n" +
         "                                            </div>\n" +
