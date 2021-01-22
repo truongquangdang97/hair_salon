@@ -201,21 +201,23 @@ function review(riviews){
             "                            <label class=\"star star-1\" for=\"star-1\"></label>\n" +
             "                        </form>\n" +
             "                    </div>\n" +
+            "                    <form action='#' method='get'>" +
             "                    <p>  ĐÁNH GIÁ CỦA BẠN *</p>\n" +
             "                    <p class=\"form-floating\">\n" +
-            "                        <textarea class=\"form-control\" placeholder=\"Leave a comment here\" id=\"floatingTextarea2\" style=\"height: 100px\"></textarea>\n" +
+            "                        <textarea class=\"form-control\" placeholder=\"Leave a comment here\" id=\"floatingTextarea2\" style=\"height: 100px\" required></textarea>\n" +
             "                    </p>\n" +
             "                    <p>TÊN*</p>\n" +
             "                    <p class=\"col\">\n" +
-            "                        <input type=\"text\" class=\"form-control\" placeholder=\"Name\" aria-label=\"First name\">\n" +
+            "                        <input type=\"text\" class=\"form-control\" placeholder=\"Name\" aria-label=\"First name\" required>\n" +
             "                    </p>\n" +
             "                    <p>EMAIL*</p>\n" +
             "                    <div>\n" +
-            "                        <input type=\"email\" class=\"form-control\" placeholder=\"Email \" id=\"inputEmail4\">\n" +
+            "                        <input type=\"email\" class=\"form-control\" placeholder=\"Email \" id=\"inputEmail4\" required>\n" +
             "                    </div>\n" +
             "                    <div class=\"Submit \">\n" +
             "                        <button type=\"submit\" class=\"btn btn-primary\">Gửi đi  </button>\n" +
             "                    </div>\n" +
+            "                    </form>\n" +
             "                </div>\n" +
             "            </div>\n" +
             "        </div>\n" +
@@ -256,7 +258,7 @@ function loaddata() {
             data.innerHTML = review(load);
         }
     }
-    ld.open("GET","http://localhost:5000/allsearch?id="+p+"");
+    ld.open("GET","http://t2008m04.herokuapp.com/allsearch?id="+p+"");
     ld.send();
 }
 loaddata();

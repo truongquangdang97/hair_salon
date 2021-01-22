@@ -44,3 +44,35 @@ h3{
     color: black;
     font-size: 33px;
 }
+.username{
+    border: 1px solid ;
+    padding: 10px;
+    border-radius: 3px;
+}
+.username:focus{
+    outline: none;
+    background-color: #f7f7f7;
+}
+.report{
+    padding: 10px;
+    border-radius: 3px;
+}
+.report:focus{
+    outline: none;
+    background-color: #f7f7f7;
+}
+.button{
+    margin-bottom: 30px;
+    background-color: #ec1c24;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+    color: #f7f7f7;
+    transition: .3s;
+}
+.button:hover{
+    opacity: 0.8;
+}
+.button:focus{
+    outline: none;
+}

@@ -19,7 +19,7 @@ function thuonghieu(load) {
             "        <div class=\"article\">\n" +
             "            <div class=\"\">\n" +
             "                <div class=\"row\">\n" +
-            "                    <div class=\"col-md-2 sale\">\n" +
+            "                    <div class=\"col-md-3 sale\">\n" +
             "                        <div class=\"ct-2-1\">\n" +
             "                            <div class=\"\"><a href=\"review_use.html?id=7\">\n" +
             "                                <img src=\"imgs/rovectin_2.jpg\"></a>\n" +
@@ -45,7 +45,7 @@ function thuonghieu(load) {
             "                            </div>\n" +
             "                        </div>\n" +
             "                    </div>\n" +
-            "                    <div class=\"col-md-2 sale\">\n" +
+            "                    <div class=\"col-md-3 sale\">\n" +
             "                        <div class=\"ct-2-1\">\n" +
             "                            <div class=\"\"><a href=\"review_use.html?id=7\">\n" +
             "                                <img src=\"imgs/BEPLAIN2.jpg\"></a>\n" +
@@ -71,7 +71,7 @@ function thuonghieu(load) {
             "                            </div>\n" +
             "                        </div>\n" +
             "                    </div>\n" +
-            "                    <div class=\"col-md-2 sale\">\n" +
+            "                    <div class=\"col-md-3 sale\">\n" +
             "                        <div class=\"ct-2-1\">\n" +
             "                            <div class=\"\"><a href=\"review_use.html?id=7\">\n" +
             "                                <img src=\"imgs/BEPLAIN4.jpg\"></a>\n" +
@@ -301,7 +301,7 @@ function loaddata() {
             data.innerHTML = thuonghieu(load);
         }
     }
-    ld.open("GET","http://localhost:5000/thuonghieu?id="+p+"");
+    ld.open("GET","http://t2008m04.herokuapp.com/thuonghieu?id="+p+"");
     ld.send();
 }
 loaddata();
