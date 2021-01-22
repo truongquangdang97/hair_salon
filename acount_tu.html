@@ -28,15 +28,16 @@
         </span>
                 </div>
                 <div class="photograp">
+                    <form action="#" method="get">
                     <div class="photograp1">
                         <div class="import">
                             <p>
                                 <label for="username">TÊN TÀI KHOẢN HOẶC ĐỊA CHỈ EMAIL *</label>
-                                <input id="username" class="email" type="email">
+                                <input id="username" class="email" type="email" required />
                             </p>
                             <p>
                                 <label for="password">MẬT KHẨU *</label>
-                                <input id="password" class="password" type="password">
+                                <input id="password" class="password" type="password" minlength="6" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" required />
                             </p>
                             <p>
                                 <button class="button" type="submit">
@@ -54,11 +55,11 @@
                         <div class="import">
                             <p>
                                 <label for="usernamez">ĐỊA CHỈ EMAIL *</label>
-                                <input id="usernamez" class="email" type="email">
+                                <input id="usernamez" class="email" type="email" required />
                             </p>
                             <p>
                                 <label for="passwordz">MẬT KHẨU *</label>
-                                <input id="passwordz" class="password" type="password">
+                                <input id="passwordz" class="password" type="password" minlength="6" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" required>
                             </p>
                             <p>
                                 <input class="memori-2" type="checkbox"> <b>ĐĂNG KÝ NHẬN THÔNG TIN QUA EMAIL</b>
@@ -69,6 +70,7 @@
                             </p>
                         </div>
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
