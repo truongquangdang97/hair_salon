@@ -2,161 +2,20 @@
     margin: 0;
     padding: 0;
 }
-a{
-    text-decoration: none;
+body{
+    font-family: Nunito, sans-serif;
 }
-.container{
-    width: 1200px;
-    margin: auto;
+.vsv img{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
 }
+.vsv {
+    font-size: 18px;
+    line-height: 1.5;
 
-.button {
-    position: relative;
-    padding: 1em 1.5em;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    outline: none;
-    font-size: 17px;
-    margin-top: 15px;
-    font-family: 'Montserrat', sans-serif;
 }
-.button.type4 {
-    color: #369fdd;
-}
-.button.type4::after {
-    content: "";
-    display: block;
-    position: absolute;
-    height: 2px;
-    width: 0;
-    left: 0;
-    right: 0;
-    background-color: #f671b6;
-    transition: width 0.3s ease-in-out;
-    margin: 0 auto;
-}
-.search{
-    margin-top: 35px;
-}
-.card {
-    overflow: hidden;
-    display: inline-block;
-}
-.box-1{
-    padding: 10px;
-    overflow: hidden;
-}
-.text-bot{
-    color: white;
-    position: absolute;
-    bottom: 15px;
-}
-.img-bot{
-    transition: .3s;
-}
-.text-2 a{
-    font-size: 12px;
-    color: #f3eded;
-    padding: 3px 5px;
-    background-color: #8c8c8c;
-    transition: .3s;
-}
-.box-1:hover .img-bot{
-    transform: scale(1.1);
-}
-.text{
-    text-align: center;
-    padding: 20px;
-}
+.vsv ul {
+    margin-left: 40px;
 
-
-
-.box-2{
-    padding: 10px;
-    overflow: hidden;
-}
-.text-bot{
-    position: absolute;
-    bottom: 15px;
-}
-.img-bot{
-    transition: .3s;
-}
-.text-2 a{
-    font-size: 12px;
-    color: #fff;
-    padding: 3px 5px;
-    background-color: #8c8c8c;
-    transition: .3s;
-}
-.box-2:hover .img-bot{
-    transform: scale(1.1);
-}
-.box-2:hover .text-2 a{
-    text-decoration: none;
-    background-color: pink;
-}
-
-
-.box-3{
-    padding: 10px;
-    overflow: hidden;
-}
-.text-bot{
-    position: absolute;
-    bottom: 15px;
-}
-.img-bot{
-    transition: .3s;
-}
-.text-2 a{
-    font-size: 12px;
-    color: #fff;
-    padding: 3px 5px;
-    background-color: #8c8c8c;
-    transition: .3s;
-}
-.box-3:hover .img-bot{
-    transform: scale(1.1);
-}
-.box-3:hover .text-2 a{
-    text-decoration: none;
-    background-color: pink;
-}
-footer{
-    background-color: black;
-    padding: 20px;
-}
-.header_boss{
-    text-align: center;
-    font-family: 'Playfair Display';
-    font-size: 42px;
-    font-weight: 400;
-    color: #000;
-    margin-top: 80px;
-}
-a {
-    transition: .2s;
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: none;
-    color: #FA8072;
-}
-
-.nav-boss{
-    font-size: 14px;
-    padding-top: 75px;
-    padding-left: 20px;
-    padding-bottom: 30px;
-}
-.banner{
-    padding-top: 40px;
-}
-.backgroud-color-bottom{
-    width: 340px;
-    background-color: #e5d5d5;
-    padding-top:10px;
-    padding-bottom: 10px;
 }
