@@ -54,6 +54,90 @@ a{
 .search{
     margin-top: 35px;
 }
+.card {
+    overflow: hidden;
+    display: inline-block;
+}
+.box-1{
+    padding: 10px;
+    overflow: hidden;
+}
+.text-bot{
+    color: white;
+    position: absolute;
+    bottom: 15px;
+}
+.img-bot{
+    transition: .3s;
+}
+.text-2 a{
+    font-size: 12px;
+    color: #f3eded;
+    padding: 3px 5px;
+    background-color: #8c8c8c;
+    transition: .3s;
+}
+.box-1:hover .img-bot{
+    transform: scale(1.1);
+}
+.text{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.box-2{
+    padding: 10px;
+    overflow: hidden;
+}
+.text-bot{
+    position: absolute;
+    bottom: 15px;
+}
+.img-bot{
+    transition: .3s;
+}
+.text-2 a{
+    font-size: 12px;
+    color: #fff;
+    padding: 3px 5px;
+    background-color: #8c8c8c;
+    transition: .3s;
+}
+.box-2:hover .img-bot{
+    transform: scale(1.1);
+}
+.box-2:hover .text-2 a{
+    text-decoration: none;
+    background-color: pink;
+}
+
+
+.box-3{
+    padding: 10px;
+    overflow: hidden;
+}
+.text-bot{
+    position: absolute;
+    bottom: 15px;
+}
+.img-bot{
+    transition: .3s;
+}
+.text-2 a{
+    font-size: 12px;
+    color: #fff;
+    padding: 3px 5px;
+    background-color: #8c8c8c;
+    transition: .3s;
+}
+.box-3:hover .img-bot{
+    transform: scale(1.1);
+}
+.box-3:hover .text-2 a{
+    text-decoration: none;
+    background-color: pink;
+}
 .cuonttrang{
     height: 70px;
     width: 1200px;
@@ -69,4 +153,77 @@ a{
 footer{
     background-color: black;
     padding: 20px;
+}
+.header_boss{
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 42px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 80px;
+}
+.main{
+    font-family: "Nunito",-apple-system,BlinkMacSystemFont,Arial,Helvetica,'Helvetica Neue',Verdana,sans-serif;
+    color: #545454;
+    font-weight: normal;
+    line-height: 1.5;
+    padding-right: 20px;
+}
+a {
+    transition: .2s;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #FA8072;
+}
+.row{
+    font-size: 18px;
+}
+.nav-boss{
+    font-size: 14px;
+    padding-top: 75px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.thanh{
+    border-bottom: 2px solid #ee2c2c;
+    width: 50px;
+    margin-bottom: 35px;
+}
+h3{
+    color: black;
+    font-size: 33px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+h4 {
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+.main h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.main {
+    text-align: center;
+}
+.img-1 {
+    margin-bottom: 30px;
+}
+
+.main img {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.main p {
+    text-align: center;
+    width: 900px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 146px;
 }
