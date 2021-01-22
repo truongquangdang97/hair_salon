@@ -16,8 +16,46 @@ function thuonghieu(load) {
             "            <div class=\"text-ct-3\"><a class=\"text-ct-3-1\" href=\"Home-thanh.html\">Trang chủ</a> / <a class=\"text-ct-3-1\" href=\"Tu_chucnang.html\">Shop</a> / <a class=\"text-ct-3-1\" href=\"tu_thuonghieu.html\">Thương Hiệu</a> /  SALES </div>\n" +
             "            <p class=\"text-sl\">Thương hiệu thể hiện nét đặc trưng ở việc kết hợp các thảo mộc trong y học phương Đông với công nghệ khoa học hiện đại; sử dụng nguyên liệu sạch và tinh túy nhất, cung cấp dưỡng chất và chữa lành cho những làn da nhạy cảm.</p>\n" +
             "        </div>\n" +
+            "<div class=\"aside\">\n" +
+            "            <div class=\"ct-1\">\n" +
+            "                <div class=\"text-ct\">Vấn đề về da</div>\n" +
+            "                <div class=\"text-ct-2\">\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">Tái Tạo Da</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">Cấp Nước Dưỡng Ẩm</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a  href=\"\">Chống Lão Hóa Và Nếp Nhăn</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">Dưỡng Trắng Và Làm Sáng Da</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">Thu Nhỏ Lỗ Chân Lông</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">Trị Vết Thâm, Nám, Tàn Nhang</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">Điều Trị Mụn</a></p>\n" +
+            "                </div>\n" +
+            "                <div class=\"borderbt\"></div>\n" +
+            "                <div class=\"text-ct\">Loại da</div>\n" +
+            "                <div class=\"text-ct-2\">\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">Da Dầu, Mụn</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">Da Hỗn Hợp</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a  href=\"\">Da Khô</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">Da Lão Hóa</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">Da Nhạy Cảm</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">Da Thường</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">Mọi Loại Da</a></p>\n" +
+            "                </div>\n" +
+            "                <div class=\"borderbt\"></div>\n" +
+            "                <div class=\"text-ct\">Thương Hiệu</div>\n" +
+            "                <div class=\"text-ct-2\">\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">BE PLAIN</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">PURITO</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a  href=\"\">ROUND LAB</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">ROVECTIN</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">MAKE P:REM</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">SIORIS</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">ACWELL</a></p>\n" +
+            "                    <p class=\"text-ct-2-1\"><i class=\"far fa-square\"></i> <a href=\"\">COSRX</a></p>\n" +
+            "                </div>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
             "        <div class=\"article\">\n" +
-            "            <div class=\"\">\n" +
+            "            <div class=\"ct-2\">\n" +
+            "                <div class=\"text-ct-3\"><a class=\"text-ct-3-1\" href=\"\">Trang chủ</a> / Thương hiệu</div>\n" +
             "                <div class=\"row\">\n" +
             "                    <div class=\"col-md-3 sale\">\n" +
             "                        <div class=\"ct-2-1\">\n" +
@@ -97,7 +135,7 @@ function thuonghieu(load) {
             "                            </div>\n" +
             "                        </div>\n" +
             "                    </div>\n" +
-            "                    <div class=\"col-md-2 sale\">\n" +
+            "                    <div class=\"col-md-3 sale\">\n" +
             "                        <div class=\"ct-2-1\">\n" +
             "                            <div class=\"\"><a href=\"review_use.html?id=7\">\n" +
             "                                <img src=\"imgs/BEPLAIN6.jpg\"></a>\n" +
@@ -123,7 +161,7 @@ function thuonghieu(load) {
             "                            </div>\n" +
             "                        </div>\n" +
             "                    </div>\n" +
-            "                    <div class=\"col-md-2 sale\">\n" +
+            "                    <div class=\"col-md-3 sale\">\n" +
             "                        <div class=\"ct-2-1\">\n" +
             "                            <div class=\"\"><a href=\"review_use.html?id=7\">\n" +
             "                                <img src=\"imgs/BEPLAIN7.jpg\"></a>\n" +
@@ -149,7 +187,7 @@ function thuonghieu(load) {
             "                            </div>\n" +
             "                        </div>\n" +
             "                    </div>\n" +
-            "                    <div class=\"col-md-2 sale\">\n" +
+            "                    <div class=\"col-md-3 sale\">\n" +
             "                        <div class=\"ct-2-1\">\n" +
             "                            <div class=\"\"><a href=\"review_use.html?id=7\">\n" +
             "                                <img src=\"imgs/BEPLAIN8.jpg\"></a>\n" +
@@ -175,7 +213,7 @@ function thuonghieu(load) {
             "                            </div>\n" +
             "                        </div>\n" +
             "                    </div>\n" +
-            "                    <div class=\"col-md-2 sale\">\n" +
+            "                    <div class=\"col-md-3 sale\">\n" +
             "                        <div class=\"ct-2-1\">\n" +
             "                            <div class=\"\"><a href=\"review_use.html?id=7\">\n" +
             "                                <img src=\"imgs/BEPLAIN_9.jpg\"></a>\n" +
@@ -201,7 +239,7 @@ function thuonghieu(load) {
             "                            </div>\n" +
             "                        </div>\n" +
             "                    </div>\n" +
-            "                    <div class=\"col-md-2 sale\">\n" +
+            "                    <div class=\"col-md-3 sale\">\n" +
             "                        <div class=\"ct-2-1\">\n" +
             "                            <div class=\"\"><a href=\"review_use.html?id=7\">\n" +
             "                                <img src=\"imgs/BEPLAIN_12.jpg\"></a>\n" +
@@ -227,7 +265,7 @@ function thuonghieu(load) {
             "                            </div>\n" +
             "                        </div>\n" +
             "                    </div>\n" +
-            "                    <div class=\"col-md-2 sale\">\n" +
+            "                    <div class=\"col-md-3 sale\">\n" +
             "                        <div class=\"ct-2-1\">\n" +
             "                            <div class=\"\"><a href=\"review_use.html?id=7\">\n" +
             "                                <img src=\"imgs/ROUNDLAB5.jpg\"></a>\n" +
@@ -253,7 +291,7 @@ function thuonghieu(load) {
             "                            </div>\n" +
             "                        </div>\n" +
             "                    </div>\n" +
-            "                    <div class=\"col-md-2 sale\">\n" +
+            "                    <div class=\"col-md-3 sale\">\n" +
             "                        <div class=\"ct-2-1\">\n" +
             "                            <div class=\"\"><a href=\"review_use.html?id=7\">\n" +
             "                                <img src=\"imgs/ROUNDLAB6.jpg\"></a>\n" +
