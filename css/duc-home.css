@@ -168,6 +168,7 @@ footer{
     font-size: 10px;
 }
 span{
+    color: #8c8c8c;
     font-size: 12px;
     font-weight: 700;
 }
@@ -175,7 +176,14 @@ span{
     margin-top: 35px;
 }
 .text-fd{
+    color: pink;
     font-weight: 700;
     width: 350px;
 }
+.text-fd:hover{
+    color: black;
+}
+
+
+
 
