@@ -9,48 +9,6 @@ a{
     width: 1200px;
     margin: auto;
 }
-.menu{
-    background-color: white;
-}
-.menu ul li{
-    display: inline-block;
-    magin: 10px 0;
-    text-transform: uppercase;
-     float: right;
-}
-.button {
-    position: relative;
-    padding: 1em 1.5em;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    outline: none;
-    font-size: 17px;
-    margin-top: 15px;
-    font-family: 'Montserrat', sans-serif;
-}
-.button.type4 {
-    color: #369fdd;
-}
-.button.type4::after {
-    content: "";
-    display: block;
-    position: absolute;
-    height: 2px;
-    width: 0;
-    left: 0;
-    right: 0;
-    background-color: #f671b6;
-    transition: width 0.3s ease-in-out;
-    margin: 0 auto;
-}
-
-.button.type4::after {
-    bottom: 0;
-}
-.button.type4:hover::after {
-    width: 60px;
-}
 .card {
     overflow: hidden;
     display: inline-block;
@@ -191,6 +149,7 @@ h3{
 }
 .banner{
     padding-bottom: 20px;
+    padding-top: 30px;
 }
 .cuoitrang{
     font-weight: 700;
@@ -201,8 +160,9 @@ h4{
     color: #8c8c8c;
 }
 footer{
+    text-align: center;
     background-color: black;
-    padding: 20px;
+    padding: 90px;
 }
 .text-test{
     font-size: 10px;
@@ -213,5 +173,9 @@ span{
 }
 .search{
     margin-top: 35px;
+}
+.text-fd{
+    font-weight: 700;
+    width: 350px;
 }
 

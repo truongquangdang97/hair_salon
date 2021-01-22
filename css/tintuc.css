@@ -9,15 +9,7 @@ a{
     width: 1200px;
     margin: auto;
 }
-.menu{
-    background-color: white;
-}
-.menu ul li{
-    display: inline-block;
-    magin: 10px 0;
-    text-transform: uppercase;
-    float: right;
-}
+
 .button {
     position: relative;
     padding: 1em 1.5em;
@@ -43,13 +35,6 @@ a{
     background-color: #f671b6;
     transition: width 0.3s ease-in-out;
     margin: 0 auto;
-}
-
-.button.type4::after {
-    bottom: 0;
-}
-.button.type4:hover::after {
-    width: 60px;
 }
 .search{
     margin-top: 35px;
@@ -84,6 +69,7 @@ a{
     text-align: center;
     padding: 20px;
 }
+
 
 
 .box-2{
@@ -138,18 +124,6 @@ a{
     text-decoration: none;
     background-color: pink;
 }
-.cuonttrang{
-    height: 70px;
-    width: 1200px;
-    position: fixed;
-    top:0;
-    margin: auto;
-    z-index: 1000;
-    transition: 0.5s;
-}
-.cuonttrang img{
-    max-height: 65px;
-}
 footer{
     background-color: black;
     padding: 20px;
@@ -162,13 +136,6 @@ footer{
     color: #000;
     margin-top: 80px;
 }
-.main{
-    font-family: "Nunito",-apple-system,BlinkMacSystemFont,Arial,Helvetica,'Helvetica Neue',Verdana,sans-serif;
-    color: #545454;
-    font-weight: normal;
-    line-height: 1.5;
-    padding-right: 20px;
-}
 a {
     transition: .2s;
     text-decoration: none;
@@ -177,53 +144,19 @@ a:hover{
     text-decoration: none;
     color: #FA8072;
 }
-.row{
-    font-size: 18px;
-}
+
 .nav-boss{
     font-size: 14px;
     padding-top: 75px;
     padding-left: 20px;
     padding-bottom: 30px;
 }
-.thanh{
-    border-bottom: 2px solid #ee2c2c;
-    width: 50px;
-    margin-bottom: 35px;
+.banner{
+    padding-top: 40px;
 }
-h3{
-    color: black;
-    font-size: 33px;
-    margin-inline: auto;
-    margin-bottom: 40px;
-    margin-top: 40px;
-
-}
-h4 {
-    text-align: center;
-}
-h6{
-    text-align: center;
-}
-.main h1 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-.main {
-    text-align: center;
-}
-.img-1 {
-    margin-bottom: 30px;
-}
-
-.main img {
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-.main p {
-    text-align: center;
-    width: 900px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 146px;
+.backgroud-color-bottom{
+    width: 340px;
+    background-color: #e5d5d5;
+    padding-top:10px;
+    padding-bottom: 10px;
 }
